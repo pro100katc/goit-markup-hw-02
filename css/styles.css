@@ -39,10 +39,6 @@
         color: var(--accent-color);
     }
     
-    .site-nav .link.current {
-        color: var(--primary-text-color);
-    }
-    
     .hero-title {
         color: #212121;
     }
