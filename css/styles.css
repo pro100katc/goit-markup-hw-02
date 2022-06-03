@@ -1,8 +1,85 @@
-.body {
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-.header {
-    font-style: normal;
-    color: #000;
-}
+    /* колір основного тексту #212121 */
+    /* колір абзаців та пвдписів #757575 */
+    /* колір акцент #2196F3 */
+    /* другорядний колір rgba(255, 255, 255, 0.6) */
+    
+     :root {
+        --primary-text-color: #757575;
+        --title-text-color: #212121;
+        --accent-color: #2196F3;
+        --secondary-text-color: rgba(255, 255, 255, 0.6);
+    }
+    
+    body {
+        font-family: 'Roboto';
+        color: var(--primary-text-color);
+        background: #fff;
+    }
+    
+    .list {
+        list-style: none;
+    }
+    
+    .logo {
+        color: var(--title-text-color);
+        width: 145px;
+        height: 31px;
+    }
+    
+    .logo:hover {
+        color: var(--accent-color);
+    }
+    
+    .site-nav .link {
+        color: var(--title-text-color);
+    }
+    
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+        color: var(--accent-color);
+    }
+    
+    .hero-title {
+        color: #212121;
+    }
+    
+    .section .title {
+        color: #212121;
+    }
+    
+    .info-mailto:hover,
+    .info-mailto:focus {
+        color: #2196F3;
+    }
+    
+    .info-footer {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .mailto-footer:focus {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .logo footer {
+        width: 145px;
+        height: 31px;
+        font-family: 'Raleway';
+    }
+    
+    .adress-footer {
+        width: 231px;
+        height: 21px;
+    }
+    
+    .info-footer {
+        width: 231px;
+        height: 21px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .button {
+        color: #fff;
+        background: var(--accent-color);
+        width: 136px;
+        height: 30px;
+    }
