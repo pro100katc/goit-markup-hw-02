@@ -39,12 +39,20 @@
         color: var(--accent-color);
     }
     
+    .site-nav .link.current {
+        color: var(--primary-text-color);
+    }
+    
     .hero-title {
         color: #212121;
     }
     
     .section .title {
         color: #212121;
+    }
+    
+    .introduction .title {
+        color: var(--title-text-color);
     }
     
     .info-mailto:hover,
@@ -82,4 +90,12 @@
         background: var(--accent-color);
         width: 136px;
         height: 30px;
+    }
+    
+    .battons {
+        color: var(--title-text-color);
+        background: #F5F4FA;
+        border-radius: 4px;
+        width: 103px;
+        height: 38px;
     }
