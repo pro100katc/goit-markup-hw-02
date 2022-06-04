@@ -55,11 +55,11 @@
                             --title-text-color: #212121;
                             --accent-color: #2196F3;
                             --secondary-text-color: rgba(255, 255, 255, 0.6);
-                            --background-white-color: #f5f4fa
+                            --background-white-color: #f5f4fa;
                         }
                         
                         body {
-                            font-family: 'Roboto';
+                            font-family: 'Roboto', 'sans-serif';
                             color: var(--primary-text-color);
                             background: #fff;
                         }
@@ -67,32 +67,149 @@
                         .list {
                             list-style: none;
                         }
+                        /* Logo */
                         
                         .logo {
-                            color: var(--title-text-color);
                             width: 145px;
                             height: 31px;
+                            font-family: 'Raleway' cursive;
+                            font-weight: 700;
+                            font-size: 26px;
+                            line-height: 1.2px;
+                            letter-spacing: 0.03em;
+                            color: var(--accent-color);
                         }
                         
                         .logo:hover {
                             color: var(--accent-color);
                         }
+                        /* Site nav */
                         
                         .site-nav .link {
                             color: var(--title-text-color);
+                            width: 145px;
+                            height: 31px;
+                            font-weight: 500;
+                            font-size: 26px;
+                            line-height: 1.2;
+                            letter-spacing: 0.03em;
+                        }
+                        
+                        .adres-info .info-mailto {
+                            width: 135px;
+                            height: 16px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 1.1px;
+                            letter-spacing: 0.02em;
+                            color: var(--accent-color);
+                        }
+                        
+                        .adres-info .info-tel {
+                            width: 122px;
+                            height: 16px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 1.1px;
+                            letter-spacing: 0.02em;
+                            color: var(--primary-text-color);
                         }
                         
                         .site-nav .link:hover,
                         .site-nav .link:focus {
                             color: var(--accent-color);
                         }
+                        /* Hero */
                         
                         .hero-title {
+                            width: 696px;
+                            height: 120px;
+                            font-weight: 900;
+                            font-size: 44px;
+                            line-height: 1.4;
+                            text-align: center;
+                            letter-spacing: 0.06em;
+                            text-transform: uppercase;
                             color: #212121;
                         }
                         
+                        .button {
+                            color: #fff;
+                            background: var(--accent-color);
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 1.9;
+                            display: flex;
+                            letter-spacing: 0.06em;
+                            left: 732px;
+                            top: 440px
+                        }
+                        
+                        .hero .button:hover,
+                        .hero .button:focus {
+                            color: var(--accent-color);
+                        }
+                        /* Skills */
+                        
                         .section .title {
                             color: #212121;
+                            width: 270px;
+                            height: 16px;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 1.1;
+                            letter-spacing: 0.03em;
+                            text-transform: uppercase;
+                        }
+                        
+                        .section .skill {
+                            width: 270px;
+                            height: 75px;
+                            left: 515px;
+                            top: 800px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1.7;
+                            letter-spacing: 0.03em;
+                        }
+                        
+                        .title about {
+                            width: 376px;
+                            height: 42px;
+                            left: 612px;
+                            top: 969px;
+                            font-weight: 700;
+                            font-size: 36px;
+                            line-height: 1.2;
+                            text-align: center;
+                            letter-spacing: 0.03em;
+                            color: #212121;
+                        }
+                        
+                        .person list {
+                            width: 151px;
+                            height: 19px;
+                            left: 275px;
+                            top: 1925px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 1.2px;
+                            text-align: center;
+                            letter-spacing: 0.03em;
+                            color: var(--title-text-color);
+                        }
+                        
+                        .person list .profecion {
+                            width: 147px;
+                            height: 19px;
+                            left: 577px;
+                            top: 1954px;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 1.2;
+                            text-align: center;
+                            letter-spacing: 0.03em;
+                            color: var(--primary-text-color);
                         }
                         
                         .introduction .title {
@@ -104,28 +221,11 @@
                             color: #2196F3;
                         }
                         
-                        .button {
-                            color: #fff;
-                            background: var(--accent-color);
-                            width: 136px;
-                            height: 30px;
-                        }
-                        
                         .buttons {
                             color: var(--title-text-color);
-                            background: #F5F4FA;
-                            left: 712px;
-                            top: 174px;
-                        }
-                        
-                        .hero .button:hover,
-                        .hero .button:focus {
-                            color: var(--accent-color);
                         }
                         
                         .filter .buttons :hover,
                         .filter .buttons :focus {
                             color: var(--accent-color);
-                            background: #2196F3;
-                            border-radius: 4px;
                         }
