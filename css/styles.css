@@ -1,72 +1,83 @@
-    /* колір основного тексту #212121 */
-    /* колір абзаців та пвдписів #757575 */
-    /* колір акцент #2196F3 */
-    /* другорядний колір rgba(255, 255, 255, 0.6) */
-    
-     :root {
-        --primary-text-color: #757575;
-        --title-text-color: #212121;
-        --accent-color: #2196F3;
-        --secondary-text-color: rgba(255, 255, 255, 0.6);
-    }
-    
-    body {
-        font-family: 'Roboto';
-        color: var(--primary-text-color);
-        background: #fff;
-    }
-    
-    .list {
-        list-style: none;
-    }
-    
-    .logo {
-        color: var(--title-text-color);
-        width: 145px;
-        height: 31px;
-    }
-    
-    .logo:hover {
-        color: var(--accent-color);
-    }
-    
-    .site-nav .link {
-        color: var(--title-text-color);
-    }
-    
-    .site-nav .link:hover,
-    .site-nav .link:focus {
-        color: var(--accent-color);
-    }
-    
-    .hero-title {
-        color: #212121;
-    }
-    
-    .section .title {
-        color: #212121;
-    }
-    
-    .introduction .title {
-        color: var(--title-text-color);
-    }
-    
-    .info-mailto:hover,
-    .info-mailto:focus {
-        color: #2196F3;
-    }
-    
-    .button {
-        color: #fff;
-        background: var(--accent-color);
-        width: 136px;
-        height: 30px;
-    }
-    
-    .battons {
-        color: var(--title-text-color);
-        background: #F5F4FA;
-        border-radius: 4px;
-        width: 103px;
-        height: 38px;
-    }
+        /* колір основного тексту #212121 */
+        /* колір абзаців та пвдписів #757575 */
+        /* колір акцент #2196F3 */
+        /* другорядний колір rgba(255, 255, 255, 0.6) */
+        
+         :root {
+            --primary-text-color: #757575;
+            --title-text-color: #212121;
+            --accent-color: #2196F3;
+            --secondary-text-color: rgba(255, 255, 255, 0.6);
+            --background-white-color: #f5f4fa
+        }
+        
+        body {
+            font-family: 'Roboto';
+            color: var(--primary-text-color);
+            background: #fff;
+        }
+        
+        .list {
+            list-style: none;
+        }
+        
+        .logo {
+            color: var(--title-text-color);
+            width: 145px;
+            height: 31px;
+        }
+        
+        .logo:hover {
+            color: var(--accent-color);
+        }
+        
+        .site-nav .link {
+            color: var(--title-text-color);
+        }
+        
+        .site-nav .link:hover,
+        .site-nav .link:focus {
+            color: var(--accent-color);
+        }
+        
+        .hero-title {
+            color: #212121;
+        }
+        
+        .section .title {
+            color: #212121;
+        }
+        
+        .introduction .title {
+            color: var(--title-text-color);
+        }
+        
+        .info-mailto:hover,
+        .info-mailto:focus {
+            color: #2196F3;
+        }
+        
+        .button {
+            color: #fff;
+            background: var(--accent-color);
+            width: 136px;
+            height: 30px;
+        }
+        
+        .buttons {
+            color: var(--title-text-color);
+            background: #F5F4FA;
+            left: 712px;
+            top: 174px;
+        }
+        
+        .hero .button:hover,
+        .hero .button:focus {
+            color: var(--accent-color);
+        }
+        
+        .filter .buttons :hover,
+        .filter .buttons :focus {
+            color: var(--accent-color);
+            background-color: yellowgreen;
+        }
