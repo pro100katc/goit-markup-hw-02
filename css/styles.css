@@ -2,54 +2,8 @@
                         /* колір абзаців та пвдписів #757575 */
                         /* колір акцент #2196F3 */
                         /* другорядний колір rgba(255, 255, 255, 0.6) */
-                        /* <style>
-        /* WebStudio 
-        
-        .logo_header {
-            position: absolute;
-            width: 145px;
-            height: 31px;
-            left: 215px;
-            top: 24px;
-        }
-        
-        .logo1 {
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 31px;
-            /* identical to box height 
-            letter-spacing: 0.03em;
-            color: #2196F3;
-        }
-        
-        .logo2 {
-            width: 145px;
-            height: 31px;
-            left: 215px;
-            top: 24px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 31px;
-            /* identical to box height 
-            letter-spacing: 0.03em;
-            color: black;
-        }
-      <div class="logo_header" onclick="location.href='#';" style="cursor: pointer;">
-            <font class="logo1">Web</font>
-            <font class="logo2">Studio</font>
-        </div>
-        <!--<<a href="" class="logo_header">
-            <div>
-                <font class="logo1">Web</font>
-                <font class="logo2">Studio</font>
-            </div>
-        /a>-->
-        */
-                        
+                        /* <style>*/
+
                          :root {
                             --primary-text-color: #757575;
                             --title-text-color: #212121;
@@ -183,7 +137,6 @@
                             font-weight: 700;
                             font-size: 36px;
                             line-height: 1.2;
-                            text-align: center;
                             letter-spacing: 0.03em;
                             color: var(--title-text-color);
                         }
@@ -198,7 +151,6 @@
                             font-weight: 500;
                             font-size: 16px;
                             line-height: 1.2px;
-                            text-align: center;
                             letter-spacing: 0.03em;
                             color: var(--title-text-color);
                         }
@@ -211,7 +163,6 @@
                             font-weight: 400;
                             font-size: 16px;
                             line-height: 1.2;
-                            text-align: center;
                             letter-spacing: 0.03em;
                             color: var(--primary-text-color);
                         }
