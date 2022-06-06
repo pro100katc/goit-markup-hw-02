@@ -173,6 +173,8 @@
                             letter-spacing: 0.03em;
                         }
                         
+                        /* about*/
+                        
                         .title about {
                             width: 376px;
                             height: 42px;
@@ -186,6 +188,8 @@
                             color: var(--title-text-color);
                         }
                         
+                        /* person list*/
+
                         .person list {
                             width: 151px;
                             height: 19px;
