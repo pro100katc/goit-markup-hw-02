@@ -174,7 +174,7 @@
                         }
                         
                         /* about*/
-                        
+
                         .title about {
                             width: 376px;
                             height: 42px;
@@ -224,7 +224,12 @@
                         .info-mailto:focus {
                             color: var(--accent-color)s;
                         }
-                        
+
+                        /* portfolio*/
+
+                        .title-section {
+                            display: none;
+                        }
                         .buttons {
                             color: var(--title-text-color);
                         }
