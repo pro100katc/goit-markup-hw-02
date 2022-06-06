@@ -130,11 +130,11 @@
                             text-align: center;
                             letter-spacing: 0.06em;
                             text-transform: uppercase;
-                            color: #212121;
+                            color: var(--title-text-color);
                         }
                         
                         .button {
-                            color: #fff;
+                            color: var(--background-white-color);
                             background: var(--accent-color);
                             font-weight: 700;
                             font-size: 16px;
@@ -152,7 +152,7 @@
                         /* Skills */
                         
                         .section .title {
-                            color: #212121;
+                            color: var(--title-text-color);
                             width: 270px;
                             height: 16px;
                             font-weight: 700;
@@ -183,7 +183,7 @@
                             line-height: 1.2;
                             text-align: center;
                             letter-spacing: 0.03em;
-                            color: #212121;
+                            color: var(--title-text-color);
                         }
                         
                         .person list {
@@ -218,7 +218,7 @@
                         
                         .info-mailto:hover,
                         .info-mailto:focus {
-                            color: #2196F3;
+                            color: var(--accent-color)s;
                         }
                         
                         .buttons {
