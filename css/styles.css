@@ -3,7 +3,7 @@
                         /* колір акцент #2196F3 */
                         /* другорядний колір rgba(255, 255, 255, 0.6) */
                         /* <style>*/
-
+                        
                          :root {
                             --primary-text-color: #757575;
                             --title-text-color: #212121;
@@ -89,7 +89,7 @@
                             color: var(--title-text-color);
                         }
                         
-                        .button {
+                        .button-hero {
                             color: var(--background-white-color);
                             background: var(--accent-color);
                             font-weight: 700;
@@ -101,13 +101,13 @@
                             top: 440px
                         }
                         
-                        .hero .button:hover,
-                        .hero .button:focus {
-                            color: var(--accent-color);
+                        .button-hero:hover,
+                        .button-hero:focus {
+                            color: tomato;
                         }
                         /* Skills */
                         
-                        .section .title {
+                        .title-skill {
                             color: var(--title-text-color);
                             width: 270px;
                             height: 16px;
@@ -118,7 +118,7 @@
                             text-transform: uppercase;
                         }
                         
-                        .section .skill {
+                        .skill-text {
                             width: 270px;
                             height: 75px;
                             left: 515px;
@@ -128,46 +128,21 @@
                             line-height: 1.7;
                             letter-spacing: 0.03em;
                         }
-                        
                         /* about*/
-
-                        .section .title-about {
-                            width: 376px;
-                            height: 42px;
-                            left: 612px;
-                            top: 969px;
-                            font-weight: 700;
-                            font-size: 36px;
-                            line-height: 1.2;
-                            text-align: center;
-                            letter-spacing: 0.03em;
-                            color: green;
-                        }
                         
-                        /* person list*/
-
-                        .person list {
-                            width: 151px;
-                            height: 19px;
-                            left: 275px;
-                            top: 1925px;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 1.2px;
+                        .title {
+                            width: 376px;
+                            line-height: 1.17px;
                             letter-spacing: 0.03em;
                             color: var(--title-text-color);
                         }
+                        /* person list*/
                         
-                        .person list .profecion {
-                            width: 147px;
-                            height: 19px;
-                            left: 577px;
-                            top: 1954px;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 1.2;
+                        .title-team {
+                            width: 376px;
+                            line-height: 1.17px;
                             letter-spacing: 0.03em;
-                            color: var(--primary-text-color);
+                            color: var(--title-text-color);
                         }
                         
                         .introduction .title {
@@ -178,12 +153,12 @@
                         .info-mailto:focus {
                             color: var(--accent-color)s;
                         }
-
                         /* portfolio*/
-
+                        
                         .title-section {
                             display: none;
                         }
+                        
                         .buttons {
                             color: var(--title-text-color);
                         }
@@ -200,12 +175,13 @@
                             letter-spacing: 0.03em;
                             color: var(--title-text-color);
                         }
+                        
                         .filter :hover,
                         .filter :focus,
                         .filter :active {
                             color: var(--accent-color);
                         }
-
+                        
                         .filter .button-all {
                             width: 29px;
                             height: 26px;
@@ -217,29 +193,26 @@
                             text-align: center;
                             letter-spacing: 0.03em;
                             color: var(--title-text-color);
-                            
                         }
                         
-                        .introduction  .about {
+                        .introduction .about {
                             font-family: 'Roboto';
                             font-style: normal;
                             font-weight: 700;
                             font-size: 18px;
                             line-height: 2;
                             letter-spacing: 0.06em;
-                            color:var(--title-text-color);
-
-                        }
-                        .introduction  .intro{
-                            width: 322px;
-                                height: 30px;
-                                font-family: 'Roboto';
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 30px;
-                                letter-spacing: 0.03em;
-
-                                color: var(--primary-text-color);
+                            color: var(--title-text-color);
                         }
                         
+                        .introduction .intro {
+                            width: 322px;
+                            height: 30px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 30px;
+                            letter-spacing: 0.03em;
+                            color: var(--primary-text-color);
+                        }
