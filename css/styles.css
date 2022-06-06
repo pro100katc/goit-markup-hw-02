@@ -78,6 +78,8 @@
                         .hero-title {
                             width: 696px;
                             height: 120px;
+                            left: 452px;
+                            top: 280px;
                             font-weight: 900;
                             font-size: 44px;
                             line-height: 1.4;
@@ -129,7 +131,7 @@
                         
                         /* about*/
 
-                        .title about {
+                        .section .title-about {
                             width: 376px;
                             height: 42px;
                             left: 612px;
@@ -137,8 +139,9 @@
                             font-weight: 700;
                             font-size: 36px;
                             line-height: 1.2;
+                            text-align: center;
                             letter-spacing: 0.03em;
-                            color: var(--title-text-color);
+                            color: green;
                         }
                         
                         /* person list*/
@@ -218,7 +221,6 @@
                         }
                         
                         .introduction  .about {
-                            
                             font-family: 'Roboto';
                             font-style: normal;
                             font-weight: 700;
