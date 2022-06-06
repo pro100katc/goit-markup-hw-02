@@ -89,6 +89,10 @@
                             color: var(--title-text-color);
                         }
                         
+                        .button {
+                            cursor: pointer;
+                        }
+                        
                         .button-hero {
                             color: var(--background-white-color);
                             background: var(--accent-color);
@@ -99,6 +103,10 @@
                             letter-spacing: 0.06em;
                             left: 732px;
                             top: 440px
+                        }
+                        
+                        .button-hero {
+                            cursor: pointer;
                         }
                         
                         .button-hero:hover,
