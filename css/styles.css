@@ -55,13 +55,13 @@
                             --title-text-color: #212121;
                             --accent-color: #2196F3;
                             --secondary-text-color: rgba(255, 255, 255, 0.6);
-                            --background-white-color: #f5f4fa;
+                            --background-white-color: #FFFFFF;
                         }
                         
                         body {
                             font-family: 'Roboto', 'sans-serif';
                             color: var(--primary-text-color);
-                            background: #fff;
+                            background: var(--background-white-color);
                         }
                         
                         .list {
@@ -234,7 +234,59 @@
                             color: var(--title-text-color);
                         }
                         
-                        .filter .buttons :hover,
-                        .filter .buttons :focus {
+                        .filter .button {
+                            width: 84px;
+                            height: 26px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 1.6;
+                            text-align: center;
+                            letter-spacing: 0.03em;
+                            color: var(--title-text-color);
+                        }
+                        .filter :hover,
+                        .filter :focus,
+                        .filter :active {
                             color: var(--accent-color);
                         }
+
+                        .filter .button-all {
+                            width: 29px;
+                            height: 26px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 1.6;
+                            text-align: center;
+                            letter-spacing: 0.03em;
+                            color: var(--title-text-color);
+                            
+                        }
+                        
+                        .introduction  .about {
+                            
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 2;
+                            letter-spacing: 0.06em;
+                            color:var(--title-text-color);
+
+                        }
+                        .introduction  .intro{
+                            width: 322px;
+                                height: 30px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 30px;
+                                letter-spacing: 0.03em;
+
+                                color: var(--primary-text-color);
+                        }
+                        
