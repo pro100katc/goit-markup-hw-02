@@ -39,17 +39,12 @@
                     }
                     
                     .site-nav :hover,
-                    .site-nav :focus,
-                    .adres-info :hover,
-                    .adres-info :focus {
+                    .adres-info :hover {
                         color: var(--accent-color);
                     }
                     
                     .logo {
-                        width: 145px;
-                        height: 31px;
-                        font-family: 'Raleway' cursive;
-                        font-weight: 700;
+                        font-family: Oleo Script;
                         font-size: 26px;
                         line-height: 1.19px;
                         letter-spacing: 0.03em;
@@ -66,15 +61,13 @@
                     }
                     
                     .adres-info a {
-                        width: 135px;
-                        height: 16px;
                         font-family: Roboto;
                         font-weight: 500;
                         font-size: 14px;
                         line-height: 1.14px;
                         letter-spacing: 0.02em;
-                        color: var(--accent-color);
                         text-decoration: none;
+                        color: var(--primary-text-color)
                     }
                     /* HEADER*/
                     /* Hero */
@@ -92,91 +85,56 @@
                         color: var(--title-text-color);
                     }
                     
-                    .button {
-                        cursor: pointer;
-                    }
-                    
                     .hero-button {
-                        background: var(--accent-color);
+                        background-color: var(--accent-color);
+                        font-family: Roboto;
                         font-weight: 700;
                         font-size: 16px;
                         line-height: 1.87;
                         display: flex;
-                        letter-spacing: 0.06em;
-                        left: 732px;
-                        top: 440px;
-                        cursor: poiner;
-                        text-align: center;
                         align-items: center;
+                        text-align: center;
+                        letter-spacing: 0.06em;
+                        cursor: pointer;
                     }
                     
                     .hero-button,
-                    .button :hover {
-                        color: var(--team-section-color);
+                    button:hover {
+                        color: var(--background-white-color);
                         background-color: var(--accent-color);
                     }
-                    /* Skills */
                     
-                    .title-skill {
+                    .button {
                         color: var(--title-text-color);
-                        width: 270px;
-                        height: 16px;
-                        font-weight: 700;
-                        font-size: 14px;
-                        line-height: 1.1;
-                        letter-spacing: 0.03em;
-                        text-transform: uppercase;
-                    }
-                    
-                    .skill-text {
-                        width: 270px;
-                        height: 75px;
-                        left: 515px;
-                        top: 800px;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 1.7;
-                        letter-spacing: 0.03em;
-                    }
-                    /* about*/
-                    
-                    .title {
-                        width: 376px;
-                        line-height: 1.17px;
-                        letter-spacing: 0.03em;
-                        color: var(--title-text-color);
-                    }
-                    /* person list*/
-                    
-                    .title-team {
-                        width: 376px;
-                        line-height: 1.17px;
-                        letter-spacing: 0.03em;
-                        color: var(--title-text-color);
-                    }
-                    
-                    .introduction .title {
-                        color: var(--title-text-color);
-                    }
-                    
-                    .introduction .about {
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 18px;
-                        line-height: 2;
-                        letter-spacing: 0.06em;
-                        color: var(--title-text-color);
-                    }
-                    
-                    .introduction .intro {
-                        width: 322px;
-                        height: 30px;
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 400;
+                        background-color: var(--team-section-color);
+                        font-family: Roboto;
+                        font-weight: 500;
                         font-size: 16px;
-                        line-height: 30px;
-                        letter-spacing: 0.03em;
-                        color: var(--primary-text-color);
+                        line-height: 1.62;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    
+                    .skills-list .title {
+                        color: var(--title-text-color);
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 1.14;
+                    }
+                    
+                    .skills-list {
+                        font-size: 14px;
+                        line-height: 1.71;
+                    }
+                    
+                    .caption {
+                        color: var(--title-text-color);
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 1.16;
+                        text-align: center;
+                    }
+                    
+                    .skills h2 {
+                        display: none;
                     }
