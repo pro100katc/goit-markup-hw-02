@@ -1,226 +1,182 @@
-                        /* колір основного тексту #212121 */
-                        /* колір абзаців та пвдписів #757575 */
-                        /* колір акцент #2196F3 */
-                        /* другорядний колір rgba(255, 255, 255, 0.6) */
-                        /* <style>*/
-                        
-                         :root {
-                            --primary-text-color: #757575;
-                            --title-text-color: #212121;
-                            --accent-color: #2196F3;
-                            --secondary-text-color: rgba(255, 255, 255, 0.6);
-                            --background-white-color: #FFFFFF;
-                        }
-                        
-                        body {
-                            font-family: 'Roboto', 'sans-serif';
-                            color: var(--primary-text-color);
-                            background: var(--background-white-color);
-                        }
-                        
-                        .list {
-                            list-style: none;
-                        }
-                        /* Logo */
-                        
-                        .logo {
-                            width: 145px;
-                            height: 31px;
-                            font-family: 'Raleway' cursive;
-                            font-weight: 700;
-                            font-size: 26px;
-                            line-height: 1.2px;
-                            letter-spacing: 0.03em;
-                            color: var(--accent-color);
-                        }
-                        
-                        .logo:hover {
-                            color: var(--accent-color);
-                        }
-                        /* Site nav */
-                        
-                        .site-nav .link {
-                            color: var(--title-text-color);
-                            width: 145px;
-                            height: 31px;
-                            font-weight: 500;
-                            font-size: 26px;
-                            line-height: 1.2;
-                            letter-spacing: 0.03em;
-                        }
-                        
-                        .adres-info .info-mailto {
-                            width: 135px;
-                            height: 16px;
-                            font-weight: 500;
-                            font-size: 14px;
-                            line-height: 1.1px;
-                            letter-spacing: 0.02em;
-                            color: var(--accent-color);
-                        }
-                        
-                        .adres-info .info-tel {
-                            width: 122px;
-                            height: 16px;
-                            font-weight: 500;
-                            font-size: 14px;
-                            line-height: 1.1px;
-                            letter-spacing: 0.02em;
-                            color: var(--primary-text-color);
-                        }
-                        
-                        .site-nav .link:hover,
-                        .site-nav .link:focus {
-                            color: var(--accent-color);
-                        }
-                        /* Hero */
-                        
-                        .hero-title {
-                            width: 696px;
-                            height: 120px;
-                            left: 452px;
-                            top: 280px;
-                            font-weight: 900;
-                            font-size: 44px;
-                            line-height: 1.4;
-                            text-align: center;
-                            letter-spacing: 0.06em;
-                            text-transform: uppercase;
-                            color: var(--title-text-color);
-                        }
-                        
-                        .button {
-                            cursor: pointer;
-                        }
-                        
-                        .button-hero {
-                            color: var(--background-white-color);
-                            background: var(--accent-color);
-                            font-weight: 700;
-                            font-size: 16px;
-                            line-height: 1.9;
-                            display: flex;
-                            letter-spacing: 0.06em;
-                            left: 732px;
-                            top: 440px
-                        }
-                        
-                        .button-hero {
-                            cursor: pointer;
-                        }
-                        
-                        .button-hero:hover,
-                        .button-hero:focus {
-                            color: tomato;
-                        }
-                        /* Skills */
-                        
-                        .title-skill {
-                            color: var(--title-text-color);
-                            width: 270px;
-                            height: 16px;
-                            font-weight: 700;
-                            font-size: 14px;
-                            line-height: 1.1;
-                            letter-spacing: 0.03em;
-                            text-transform: uppercase;
-                        }
-                        
-                        .skill-text {
-                            width: 270px;
-                            height: 75px;
-                            left: 515px;
-                            top: 800px;
-                            font-weight: 400;
-                            font-size: 14px;
-                            line-height: 1.7;
-                            letter-spacing: 0.03em;
-                        }
-                        /* about*/
-                        
-                        .title {
-                            width: 376px;
-                            line-height: 1.17px;
-                            letter-spacing: 0.03em;
-                            color: var(--title-text-color);
-                        }
-                        /* person list*/
-                        
-                        .title-team {
-                            width: 376px;
-                            line-height: 1.17px;
-                            letter-spacing: 0.03em;
-                            color: var(--title-text-color);
-                        }
-                        
-                        .introduction .title {
-                            color: var(--title-text-color);
-                        }
-                        
-                        .info-mailto:hover,
-                        .info-mailto:focus {
-                            color: var(--accent-color)s;
-                        }
-                        /* portfolio*/
-                        
-                        .title-section {
-                            display: none;
-                        }
-                        
-                        .buttons {
-                            color: var(--title-text-color);
-                        }
-                        
-                        .filter .button {
-                            width: 84px;
-                            height: 26px;
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 1.6;
-                            text-align: center;
-                            letter-spacing: 0.03em;
-                            color: var(--title-text-color);
-                        }
-                        
-                        .filter :hover,
-                        .filter :focus,
-                        .filter :active {
-                            color: var(--accent-color);
-                        }
-                        
-                        .filter .button-all {
-                            width: 29px;
-                            height: 26px;
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 1.6;
-                            text-align: center;
-                            letter-spacing: 0.03em;
-                            color: var(--title-text-color);
-                        }
-                        
-                        .introduction .about {
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 18px;
-                            line-height: 2;
-                            letter-spacing: 0.06em;
-                            color: var(--title-text-color);
-                        }
-                        
-                        .introduction .intro {
-                            width: 322px;
-                            height: 30px;
-                            font-family: 'Roboto';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 30px;
-                            letter-spacing: 0.03em;
-                            color: var(--primary-text-color);
-                        }
+                    /* колір основного тексту #212121 */
+                    /* колір абзаців та пвдписів #757575 */
+                    /* колір акцент #2196F3 */
+                    /* другорядний колір rgba(255, 255, 255, 0.6) */
+                    /* <style>*/
+                    
+                     :root {
+                        --primary-text-color: #757575;
+                        --title-text-color: #212121;
+                        --accent-color: #2196F3;
+                        --secondary-text-color: rgba(255, 255, 255, 0.6);
+                        --background-white-color: #FFFFFF;
+                        --team-section-color: #f5f4fa;
+                        --studio-color: #000;
+                    }
+                    
+                    body {
+                        font-family: 'Roboto', 'sans-serif';
+                        color: var(--primary-text-color);
+                        background: var(--background-white-color);
+                        letter-spacing: 00.03em;
+                    }
+                    
+                    .list {
+                        list-style: none;
+                    }
+                    /* HEADER*/
+                    
+                    .site-nav a {
+                        color: var(--title-text-color);
+                        width: 68px;
+                        height: 16px;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 1.14;
+                        letter-spacing: 0.02em;
+                        text-decoration: none;
+                    }
+                    
+                    .site-nav :hover,
+                    .site-nav :focus,
+                    .adres-info :hover,
+                    .adres-info :focus {
+                        color: var(--accent-color);
+                    }
+                    
+                    .logo {
+                        width: 145px;
+                        height: 31px;
+                        font-family: 'Raleway' cursive;
+                        font-weight: 700;
+                        font-size: 26px;
+                        line-height: 1.19px;
+                        letter-spacing: 0.03em;
+                        color: var(--accent-color);
+                        text-decoration: none;
+                    }
+                    
+                    .studio {
+                        color: var(--studio-color);
+                        font-family: Raleway;
+                        font-size: 26px;
+                        line-height: 1.19;
+                        text-decoration: none;
+                    }
+                    
+                    .adres-info a {
+                        width: 135px;
+                        height: 16px;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 1.14px;
+                        letter-spacing: 0.02em;
+                        color: var(--accent-color);
+                        text-decoration: none;
+                    }
+                    /* HEADER*/
+                    /* Hero */
+                    
+                    .hero-title {
+                        width: 696px;
+                        height: 120px;
+                        top: 280px;
+                        font-weight: 900;
+                        font-size: 44px;
+                        line-height: 1.36;
+                        text-align: center;
+                        letter-spacing: 0.06em;
+                        text-transform: uppercase;
+                        color: var(--title-text-color);
+                    }
+                    
+                    .button {
+                        cursor: pointer;
+                    }
+                    
+                    .hero-button {
+                        background: var(--accent-color);
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 1.87;
+                        display: flex;
+                        letter-spacing: 0.06em;
+                        left: 732px;
+                        top: 440px;
+                        cursor: poiner;
+                        text-align: center;
+                        align-items: center;
+                    }
+                    
+                    .hero-button,
+                    .button :hover {
+                        color: var(--team-section-color);
+                        background-color: var(--accent-color);
+                    }
+                    /* Skills */
+                    
+                    .title-skill {
+                        color: var(--title-text-color);
+                        width: 270px;
+                        height: 16px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 1.1;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                    }
+                    
+                    .skill-text {
+                        width: 270px;
+                        height: 75px;
+                        left: 515px;
+                        top: 800px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 1.7;
+                        letter-spacing: 0.03em;
+                    }
+                    /* about*/
+                    
+                    .title {
+                        width: 376px;
+                        line-height: 1.17px;
+                        letter-spacing: 0.03em;
+                        color: var(--title-text-color);
+                    }
+                    /* person list*/
+                    
+                    .title-team {
+                        width: 376px;
+                        line-height: 1.17px;
+                        letter-spacing: 0.03em;
+                        color: var(--title-text-color);
+                    }
+                    
+                    .introduction .title {
+                        color: var(--title-text-color);
+                    }
+                    
+                    .introduction .about {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 2;
+                        letter-spacing: 0.06em;
+                        color: var(--title-text-color);
+                    }
+                    
+                    .introduction .intro {
+                        width: 322px;
+                        height: 30px;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: 0.03em;
+                        color: var(--primary-text-color);
+                    }
