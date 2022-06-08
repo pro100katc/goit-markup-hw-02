@@ -92,7 +92,6 @@
                     }
                     
                     .hero-button {
-                        background-color: var(--accent-color);
                         font-family: Roboto;
                         font-weight: 700;
                         font-size: 16px;
@@ -102,6 +101,7 @@
                         text-align: center;
                         letter-spacing: 0.06em;
                         cursor: pointer;
+                        background-color: var(--accent-color);
                     }
                     
                     .hero-button,
@@ -111,21 +111,21 @@
                     }
                     
                     .button {
-                        color: var(--title-text-color);
-                        background-color: var(--team-section-color);
                         font-family: Roboto;
                         font-weight: 500;
                         font-size: 16px;
                         line-height: 1.62;
                         text-align: center;
                         cursor: pointer;
+                        color: var(--title-text-color);
+                        background-color: var(--team-section-color);
                     }
                     
                     .skills-list .title {
-                        color: var(--title-text-color);
                         font-weight: 700;
                         font-size: 14px;
                         line-height: 1.14;
+                        color: var(--title-text-color);
                     }
                     
                     .skills-list {
@@ -134,11 +134,11 @@
                     }
                     
                     .caption {
-                        color: var(--title-text-color);
                         font-weight: 700;
                         font-size: 36px;
                         line-height: 1.16;
                         text-align: center;
+                        color: var(--title-text-color);
                     }
                     
                     .skills h2 {
@@ -146,11 +146,11 @@
                     }
                     
                     .introduction h3 {
-                        color: var(--title-text-color);
                         font-weight: bold;
                         font-size: 18px;
                         line-height: 2;
                         letter-spacing: 00.06em;
+                        color: var(--title-text-color);
                     }
                     
                     .introduction p {
@@ -163,10 +163,10 @@
                     }
                     
                     .person-name {
-                        color: var(--title-text-color);
                         font-weight: 500;
                         font-size: 16px;
                         line-height: 1.18;
+                        color: var(--title-text-color);
                     }
                     
                     .team {
@@ -183,21 +183,21 @@
                     }
                     
                     .adress-footer {
-                        color: var(--background-white-color);
                         font-size: 14px;
                         line-height: 1.71;
+                        color: var(--background-white-color);
                     }
                     
                     .info a {
-                        color: var(--secondary-text-color);
                         font-size: 14px;
                         line-height: 1.71;
+                        color: var(--secondary-text-color);
                     }
                     
                     .footer-studio {
-                        color: var(--background-white-color);
                         font-family: Raleway;
                         font-size: 26px;
                         line-height: 1.19;
                         text-decoration: none;
+                        color: var(--background-white-color);
                     }
