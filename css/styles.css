@@ -216,7 +216,7 @@
                     }
                     
                     .footer-studio {
-                        font-family: Raleway;
+                        font-family: inherit;
                         font-size: 26px;
                         line-height: 1.19;
                         text-decoration: none;
