@@ -183,21 +183,36 @@
                     .introduction h2 {
                         display: none;
                     }
+                    /* Footer*/
                     
                     .footer {
                         background-color: var(--footer-background-color);
                     }
                     
                     .adress-footer {
+                        font-family: inherit;
                         font-size: 14px;
                         line-height: 1.71;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        letter-spacing: 0.03em;
                         color: var(--background-white-color);
                     }
                     
-                    .info a {
+                    .footer .info-footer {
+                        font-family: inherit;
+                        font-style: normal;
+                        font-weight: 400;
                         font-size: 14px;
                         line-height: 1.71;
-                        color: var(--secondary-text-color);
+                        letter-spacing: 0.03em;
+                        text-decoration: none;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                    
+                    .info :hover {
+                        color: var(--accent-color);
                     }
                     
                     .footer-studio {
