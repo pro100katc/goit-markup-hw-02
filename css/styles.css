@@ -18,8 +18,7 @@
                     body {
                         font-family: 'Roboto', 'sans-serif';
                         color: var(--primary-text-color);
-                        background: var(--background-white-color);
-                        letter-spacing: 00.03em;
+                        letter-spacing: 0.03em;
                     }
                     
                     .list {
@@ -27,45 +26,44 @@
                     }
                     /* HEADER*/
                     
-                    .site-nav a {
-                        color: var(--title-text-color);
-                        width: 68px;
-                        height: 16px;
-                        font-family: Roboto;
-                        font-weight: 500;
-                        font-size: 14px;
-                        line-height: 1.14;
-                        letter-spacing: 0.02em;
-                        text-decoration: none;
-                    }
-                    
-                    .site-nav :hover,
-                    .adres-info :hover {
-                        color: var(--accent-color);
-                    }
-                    
                     .logo {
-                        font-family: Oleo Script;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 700;
                         font-size: 26px;
-                        line-height: 1.19px;
+                        line-height: 1.19;
                         letter-spacing: 0.03em;
-                        color: var(--accent-color);
                         text-decoration: none;
+                        color: var(--accent-color);
                     }
                     
                     .studio {
                         color: var(--studio-color);
-                        font-family: Raleway;
-                        font-size: 26px;
-                        line-height: 1.19;
-                        text-decoration: none;
                     }
                     
-                    .adres-info a {
-                        font-family: Roboto;
+                    .nav-title {
                         font-weight: 500;
                         font-size: 14px;
-                        line-height: 1.14px;
+                        line-height: 1.14x;
+                        letter-spacing: 0.02em;
+                        text-decoration: none;
+                        color: var(--title-text-color);
+                    }
+                    
+                    .site-nav :hover {
+                        color: var(--accent-color);
+                    }
+                    
+                    .adres-info :hover {
+                        color: var(--accent-color);
+                    }
+                    
+                    .info {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 1.14;
                         letter-spacing: 0.02em;
                         text-decoration: none;
                         color: var(--primary-text-color)
@@ -79,9 +77,6 @@
                     }
                     
                     .hero-title {
-                        width: 696px;
-                        height: 120px;
-                        top: 280px;
                         font-weight: 900;
                         font-size: 44px;
                         line-height: 1.36;
@@ -92,64 +87,91 @@
                     }
                     
                     .hero-button {
-                        font-family: Roboto;
+                        font-family: inherit;
                         font-weight: 700;
                         font-size: 16px;
                         line-height: 1.87;
-                        display: flex;
-                        align-items: center;
-                        text-align: center;
                         letter-spacing: 0.06em;
                         cursor: pointer;
                         background-color: var(--accent-color);
-                    }
-                    
-                    .hero-button,
-                    button:hover {
                         color: var(--background-white-color);
-                        background-color: var(--accent-color);
                     }
                     
-                    .button {
-                        font-family: Roboto;
+                    .hero-button :hover {
+                        color: var(--accent-color);
+                    }
+                    
+                    .button-filter {
+                        font-family: 'Roboto';
                         font-weight: 500;
                         font-size: 16px;
-                        line-height: 1.62;
-                        text-align: center;
+                        line-height: 1.63;
+                        letter-spacing: 0.03em;
                         cursor: pointer;
                         color: var(--title-text-color);
                         background-color: var(--team-section-color);
                     }
                     
-                    .skills-list .title {
+                    .button-filter :hover {
+                        color: var(--accent-color);
+                    }
+                    
+                    .skills-about h2 {
+                        display: none;
+                    }
+                    
+                    .title-skill {
                         font-weight: 700;
                         font-size: 14px;
                         line-height: 1.14;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
                         color: var(--title-text-color);
                     }
                     
-                    .skills-list {
+                    .text-skill {
+                        font-weight: 400;
                         font-size: 14px;
                         line-height: 1.71;
+                        letter-spacing: 0.03em;
+                        color: var(--primary-text-color)
                     }
                     
                     .caption {
                         font-weight: 700;
                         font-size: 36px;
-                        line-height: 1.16;
+                        line-height: 1.17;
                         text-align: center;
+                        letter-spacing: 0.03em;
                         color: var(--title-text-color);
                     }
                     
-                    .skills h2 {
-                        display: none;
+                    .team {
+                        background-color: var(--team-section-color);
                     }
                     
+                    .person-name {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 1.19;
+                        letter-spacing: 0.03em;
+                        color: var(--title-text-color);
+                    }
+                    
+                    .profession {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.19;
+                        letter-spacing: 0.03em;
+                        color: var(--primary-text-color)
+                    }
+                    /* PORTFOLIO*/
+                    
                     .introduction h3 {
-                        font-weight: bold;
+                        font-weight: 700;
                         font-size: 18px;
                         line-height: 2;
-                        letter-spacing: 00.06em;
+                        letter-spacing: 0.06em;
                         color: var(--title-text-color);
                     }
                     
@@ -160,22 +182,6 @@
                     
                     .introduction h2 {
                         display: none;
-                    }
-                    
-                    .person-name {
-                        font-weight: 500;
-                        font-size: 16px;
-                        line-height: 1.18;
-                        color: var(--title-text-color);
-                    }
-                    
-                    .team {
-                        background-color: var(--team-section-color);
-                    }
-                    
-                    .person-card p {
-                        font-size: 16px;
-                        line-height: 1.18;
                     }
                     
                     .footer {
